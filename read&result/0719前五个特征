@@ -1,0 +1,51 @@
+==================feature 1
+从数据库取数据... FEATURE1
+从数据库取数据完成, 训练SVM并测试...
+(5360, 4096)
+predict info:
+precision:0.771
+recall:0.765
+f1-score:0.764
+==================feature 2
+从数据库取数据... FEATURE2
+从数据库取数据完成, 训练SVM并测试...
+(5360, 4096)
+predict info:
+precision:0.678
+recall:0.671
+f1-score:0.669
+==================feature 3
+从数据库取数据... FEATURE3
+从数据库取数据完成, 训练SVM并测试...
+(5360, 4096)
+predict info:
+precision:0.789
+recall:0.787
+f1-score:0.785
+==================feature 4
+从数据库取数据... FEATURE4
+从数据库取数据完成, 训练SVM并测试...
+(5360, 4096)
+predict info:
+precision:0.782
+recall:0.772
+f1-score:0.772
+==================feature 5
+从数据库取数据... FEATURE5
+从数据库取数据完成, 训练SVM并测试...
+(5360, 4096)
+predict info:
+precision:0.707
+recall:0.696
+f1-score:0.695
+==================feature 13
+从数据库取数据... FEATURE13
+从数据库取数据完成, 训练SVM并测试...
+(5360, 4096)
+predict info:
+precision:0.722
+recall:0.711
+f1-score:0.711
+==================SVM finish!==================
+lsq@lsqpc:/usr/lsq/indoor/wgcnIndoor$ 
+

@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+DATA=/media/wangchen/newdata1/wangchen/dataSet/Indoor67/Images
+CAFFE_ROOT=/home/wangchen/caffe
+rm -rf $DATA/test_lmdb
+$CAFFE_ROOT/build/tools/convert_imageset --shuffle \
+--resize_height=224 --resize_width=224 \
+/ $DATA/wgcnTestImages.txt  $DATA/test_lmdb

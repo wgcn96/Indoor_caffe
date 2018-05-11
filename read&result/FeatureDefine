@@ -1,0 +1,11 @@
+
+FEATURE1 :stn 特征 （lasagne + theano ）
+FEATURE2 :place365VGG 提取  size256 中心crop特征 (baseline)
+FEATURE3 :place365VGG 提取size224 step35 maxpool特征
+FEATURE4 :place365VGG 提取size451 step35 maxpool特征
+FEATURE5 :ImagenetVGG 提取size899 step70 maxpool特征
+FEATURE6 : 3 4 5 的拼接（该特征可以不要）
+FEATURE7 :lsq 显著区域特征
+FEATURE8 :显著区域特征
+FEATURE9 :
+FEATURE10:

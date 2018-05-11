@@ -1,0 +1,3 @@
+本次实验迁移place下预训练的googleNet修改最后的卷积层，用于CAM，在digits下实验，超参已复制过来，bestmodel权重也在Mymodels下。
+best accuracy: 74.26% at the 70 epoch
+digits: jobs/20180115-114352-fd90

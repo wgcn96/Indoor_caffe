@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+CAFFE_ROOT=/home/wangchen/caffe
+DATA=/media/wangchen/newdata1/wangchen/dataSet/Indoor67/Images
+$CAFFE_ROOT/build/tools/compute_image_mean $DATA/train_lmdb $DATA/mean.binaryproto

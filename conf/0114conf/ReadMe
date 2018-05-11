@@ -1,0 +1,5 @@
+本次实验迁移place下预训练的googleNet，在digits下实验，超参已复制过来，bestmodel权重也在Mymodels下。
+best accuracy: 78.2% at the 172 epoch
+digits: jobs/20180114-151450-7f57
+
+extra: 0.0002 的微调权重比 0.001好

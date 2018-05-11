@@ -1,0 +1,15 @@
+net: "/media/wangchen/newdata1/wangchen/work/Indoor_caffe/net_prototxt/net_google_indoor.prototxt"
+test_iter: 83
+test_interval: 335
+test_initialization: false
+display: 335
+base_lr: 0.0001
+lr_policy: "step"
+stepsize: 2680
+gamma: 0.96
+max_iter: 67000
+momentum: 0.9
+weight_decay: 1e-5
+snapshot: 335
+snapshot_prefix: "/media/wangchen/newdata1/wangchen/work/Indoor_caffe/Mymodels/googlenet_indoor/0114result/snapshot"
+solver_mode: GPU
