@@ -7,5 +7,5 @@ FEATURE5 :ImagenetVGG 提取size899 step70 maxpool特征
 FEATURE6 : 3 4 5 的拼接（该特征可以不要）
 FEATURE7 :lsq 显著区域特征
 FEATURE8 :显著区域特征
-FEATURE9 :
-FEATURE10:
+FEATURE9 :未定义
+FEATURE10:未定义
