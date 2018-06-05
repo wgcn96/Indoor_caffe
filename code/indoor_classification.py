@@ -23,20 +23,6 @@ fsvm(db=db,cursor=cursor,featurename='FEATURE5')
 # 3 + 4 + 5 pca
 print '--------------------feature 6 (3+4+5)-----------------------'
 print '从数据库取 FEATURE 6 数据...'
-FEATURE6_train_data, train_label = read_feature(db, cursor, traintable, "FEATURE6", train_num)
-FEATURE6_test_data, test_label = read_feature(db, cursor, testtable, "FEATURE6", test_num)
-print '训练SVM并测试...'
-print 'the dimen is :'
-print FEATURE6_train_data.shape
-print FEATURE6_test_data.shape
-FEATURE6_train_data_pca,FEATURE6_test_data_pca = myPCA(FEATURE6_train_data, FEATURE6_test_data,4096)
-print FEATURE6_train_data_pca.shape
-print FEATURE6_test_data_pca.shape
-result = mySVM(FEATURE6_train_data_pca, FEATURE6_test_data_pca, train_label, test_label)
-print 'pca feature 6 result is: ',result
-
-print '--------------------feature 6 (3+4+5)-----------------------'
-print '从数据库取 FEATURE 6 数据...'
 FEATURE3_train_data, train_label = read_feature(db, cursor, table_name=traintable, featurename="FEATURE3",
                                                 num=train_num)
 FEATURE3_test_data, test_label = read_feature(db, cursor, table_name=testtable, featurename="FEATURE3",
